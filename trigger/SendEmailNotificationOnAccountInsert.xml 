@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trigger xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <description>This trigger sends an email notification when a new account is inserted into the system.</description>
+    <status>Active</status>
+    <triggerSource>onAfterInsert</triggerSource>
+    <triggerType>ON_AFTER_INSERT</triggerType>
+    <name>SendEmailNotificationOnAccountInsert</name>
+    <type>Account</type>
+    <frameWorkVersion>2.0</frameWorkVersion>
+    <ApexClass>
+        <className>SendEmailNotificationOnAccountInsert</className>
+    </ApexClass>
+</Trigger>
